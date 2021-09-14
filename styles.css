@@ -1,7 +1,7 @@
-* {
+/* * {
   font-family: "Gugi", cursive;
   cursor: url(assets/green-cursor.cur), auto;
-}
+} */
 
 html,
 body {
@@ -96,7 +96,7 @@ body {
 #startButton {
   height: 100px;
   width: 250px;
-  font-family: "Gugi", cursive;
+  font-family: 'Gugi', cursive;
   background-color: #00ff00;
   color: black;
   font-size: 35px;
@@ -106,9 +106,9 @@ body {
   display: block;
 }
 
-#startButton:hover {
+/* #startButton:hover {
   cursor: url(assets/black-cursor.cur), auto;
-}
+} */
 
 #startButton:active {
   background: #00cc00;
