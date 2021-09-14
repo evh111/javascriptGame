@@ -1,7 +1,7 @@
-/* * {
-  font-family: "Gugi", cursive;
-  cursor: url(assets/green-cursor.cur), auto;
-} */
+* {
+  font-family: 'Gugi', cursive;
+  /* cursor: url(assets/green-cursor.cur), auto; */
+}
 
 html,
 body {
