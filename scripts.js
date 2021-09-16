@@ -1,4 +1,26 @@
+var bodyHTML =
+  '<div id="gameStats"></div>' +
+  '<div id="postGameMessage">' +
+  '<h1 class="gameResult"></h1>' +
+  '<p class="levelsSurvived"></p>' +
+  '</div>' +
+  '<div id="mainMenu">' +
+  '<p id="title">Scots Skirmish</p>' +
+  '<button id="startButton">Start Game</button>' +
+  '<p id="sub-title">Objective:</h1>' +
+  '<p id="instructions">Eliminate all 10 waves of enemy forces.</p>' +
+  '<p id="sub-title">Controls:</h1>' +
+  '<p id="instructions">Use the WASD keys to control your movement.</p>' +
+  '<p id="instructions">Left click in the direction of your target to fire.</p>' +
+  '</div>' +
+  '<div id="arena"></div>' +
+  '<div id="objectLayer"></div>' +
+  '<div id="shotLayer"></div>';
+
 $(document).ready(function () {
+  // Add the body HTML.
+  document.body.innerHTML = bodyHTML;
+
   // Gets the initial screen size.
   screenDimensions();
 
@@ -552,7 +574,6 @@ $(document).ready(function () {
   // Returns true if the player is rendered.
   function gameOn() {
     const height = document.querySelector('#postGameMessage').offsetHeight;
-    console.log(height);
 
     return $('#player').css('left');
   }
