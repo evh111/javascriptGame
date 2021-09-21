@@ -1,4 +1,4 @@
-# This entire game is intented to be loaded through a CDN via the following links:
+## This entire game is intented to be loaded through a CDN via the following links:
 
 # Link to CSS: https://cdn.jsdelivr.net/gh/evh111/javascriptGame/styles.css
 # Link to Javascript: https://cdn.jsdelivr.net/gh/evh111/javascriptGame/scripts.js
