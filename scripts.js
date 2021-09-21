@@ -5,7 +5,7 @@ var bodyHTML =
   '<p class="levelsSurvived"></p>' +
   '</div>' +
   '<div id="mainMenu">' +
-  '<p id="title">Scots Skirmish</p>' +
+  '<p id="title">Scots Skirmish</p>' + // Customize - Game Title
   '<button id="startButton">Start Game</button>' +
   '<p id="sub-title">Objective:</h1>' +
   '<p id="instructions">Eliminate all 10 waves of enemy forces.</p>' +
