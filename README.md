@@ -6,7 +6,7 @@ Link to Javascript: https://cdn.jsdelivr.net/gh/evh111/javascriptGame/scripts.js
 ## To host a customized version of this game: 
 
 1. Clone this repo and adjust the CDN links to reflect your own instance.
-2. In order to adjust the theme, perform a Ctrl+F/Cmd+F and search for the word "Customize" in both the "styles.css" and "scripts.js" files.
+2. To adjust the theme, perform a Ctrl+F/Cmd+F and search for the word "Customize" in both the "styles.css" and "scripts.js" files.
 
 Below is an example use case, and illustrates a situation where the user clicks a button to launch the game.
 ```
