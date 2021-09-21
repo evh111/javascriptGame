@@ -12,17 +12,17 @@ document.getElementById('button').addEventListener('click', function() {
 	document.body.innerHTML = '';
 	document.querySelectorAll('style,link[rel="stylesheet"]').forEach(item => item.remove());
 	
-	// Load in the CDN's.
-	var gameScript = document.createElement('script');  
-	gameScript.setAttribute('src', 'https://cdn.jsdelivr.net/gh/evh111/javascriptGame/scripts.js');
-	
+	// Load in CDN's.
 	var jqueryScript = document.createElement('script');  
 	jqueryScript.setAttribute('src', 'https://code.jquery.com/jquery-3.5.1.min.js');
 	
+	var gameScript = document.createElement('script');  
+	gameScript.setAttribute('src', 'https://cdn.jsdelivr.net/gh/evh111/javascriptGame/scripts.js');
+	
 	document.head.innerHTML += '<link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet" />';
 	document.head.innerHTML += '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/evh111/javascriptGame/styles.css" />';
-	document.head.appendChild(gameScript);
 	document.head.appendChild(jqueryScript);
+	document.head.appendChild(gameScript);
 	
 });
 ```
