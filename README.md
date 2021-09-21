@@ -4,8 +4,6 @@ Link to CSS: https://cdn.jsdelivr.net/gh/evh111/javascriptGame/styles.css
 Link to Javascript: https://cdn.jsdelivr.net/gh/evh111/javascriptGame/scripts.js
 
 ## Below is an example use case, and illustrates a situation where the user clicks a button to launch the game.
-
-Javascript snippet:
 ```
 document.getElementById('clearHTMLBtn').addEventListener('click', function() {
 	
