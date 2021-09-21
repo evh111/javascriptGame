@@ -103,7 +103,7 @@ $(document).ready(function () {
     $('body').append('<div id="player"></div>');
     $('#player').css('height', 50);
     $('#player').css('width', 50);
-    $('#player').css('background-color', '#ED6E00');
+    $('#player').css('background-color', '#ED6E00'); // Customize - Primary
     $('#player').css('left', arenaWidth / 2);
     $('#player').css('top', arenaHeight / 2);
   }
@@ -315,7 +315,7 @@ $(document).ready(function () {
       '<div id="' + index + '" class="enemy" draggable="false"></div>'
     );
 
-    $('#' + index).css('background-color', 'white');
+    $('#' + index).css('background-color', 'white'); // Customize - Secondary
     $('#' + index).css('height', 50);
     $('#' + index).css('width', 50);
 
